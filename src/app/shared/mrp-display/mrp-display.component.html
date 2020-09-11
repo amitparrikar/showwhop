@@ -1,0 +1,6 @@
+<div class="mrp-container">
+  <span [ngClass]="{'strike-through': strike}">{{mP | currency: 'INR'}} </span>&nbsp;<span *ngIf="strike" class="discount-price">{{sP | currency:'INR'}}</span>
+  <p *ngIf="showGst" class="tax">Inc. of GST {{gst}}%</p>
+  <p *ngIf="showVat" class="tax">Inc. of VAT {{vat}}%</p>
+</div>
+

@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "category": 1,
+    "title": "MAK 2T",
+    "packSize": "1L",
+    "image": [
+      "MAK 2T.png",
+      "MAK 2T.png"
+    ],
+    "desc": "New Generation Semi-Synthetic, low smoke, environment friendly engine oil for 2 or 3 wheeler vehicles fitted with two stroke petrol/CNG engines",
+    "spec": [
+      "Ensures low exhaust smoke level",
+      "Reduces spark plug fouling and exhaust system deposits",
+      "Easily mixes with fuel"
+    ],
+      "marketPrice": 255,
+      "sellingPrice": 220,
+      "unitName": "L",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 2,
+    "category": 2,
+    "title": "MAK Alpha Zenith 5W30",
+    "packSize": "1L",
+    "image": [
+      "MAK ALPHA ZENITH 5W-30.png",
+      "MAK ALPHA ZENITH 5W-30.png"
+    ],
+    "desc": "Premium synthetic engine oil for new generation passenger cars running on petrol/diesel/CNG/LPG",
+    "spec": [
+      "Excellent flow ability ensures quick start, better pickup and makes engine run smoother",
+      "Potential for better fuel economy without compromising engine life",
+      "Enhanced wear protection even under severe operating conditions"
+    ],
+      "marketPrice": 480,
+      "sellingPrice": 450,
+      "unitName": "L",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 3,
+    "category": 1,
+    "title": "MAK 4T ScooTech NXT",
+    "packSize": "800ML",
+    "image": [
+      "MAK SCOOTECH NXT.png",
+      "MAK SCOOTECH NXT.png"
+    ],
+    "desc": "The next generation 4-stroke engine oil with advance synthetic technology. Specially formulated for gearless scooters",
+    "spec": [
+      "Designed to provide superior lubrication of engine and maximum driving comfort",
+      "Quick engine response and increased power output",
+      "Better fuel economy through unique Friction Modifier Technology"
+    ],
+      "marketPrice": 334,
+      "sellingPrice": 220,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 4,
+    "category": 4,
+    "title": "MAK Super Kool",
+    "packSize": "1L",
+    "image": [
+      "MAK SUPER KOOL.png",
+      "MAK SUPER KOOL.png"
+    ],
+    "desc": "Environment friendly synthetic, long life, antifreeze coolant suitable for use in liquid-cooled IC engines",
+    "spec": [
+      "Prevents coolant freeze-up and boil-over",
+      "Ensures effective cooling even with 700 ppm hard water as it does not form any deposits",
+      "Protects radiator and engine block from rust and corrosion"
+    ],
+      "marketPrice": 312,
+      "sellingPrice": 300,
+      "unitName": "L",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 5,
+    "category": 2,
+    "title": "MAK Evolve Synth 0W20",
+    "packSize": "3.5L",
+    "image": [
+      "3.5 Litre Evolv Synth front.png",
+      "3.5 Litre Evolv Synth front.png"
+    ],
+    "desc": "Premium synthetic petrol engine oil specially formulated for latest generation passenger cars and hybrids requiring low viscosity oil.",
+    "spec": [
+      "Better fuel economy as lower viscometry provides same power output with less fuel",
+      "Lower engine oil consumption as the synthetic oil molecules minimize evapuration loss",
+      "Offers enhanced protection to emission system components in passenger cars"
+    ],
+      "marketPrice": 1600,
+      "sellingPrice": 1550,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  }
+]

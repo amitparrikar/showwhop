@@ -1,0 +1,35 @@
+.control-root {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 1.7rem;
+
+  .btn {
+    outline: 0;
+    border: 0;
+    background-color: #4a4aff;
+    color: white;
+    font-size: 20px;
+    padding: 0 7px;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &.btn-less {
+      background-color: #ff0000bd;
+    }
+
+    &.disabled {
+      background-color: #c1c1c1 !important;
+      cursor: inherit;
+    }
+  }
+
+  .cart-count {
+    text-align: center;
+    outline: none;
+    border: 0;
+    margin: 2px;
+    font-size: 15px;
+    background-color: transparent;
+  }
+}

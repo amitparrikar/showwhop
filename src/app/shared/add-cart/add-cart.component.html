@@ -1,0 +1,5 @@
+<div class="control-root">
+  <button class="btn" (click)="onAdd()">+</button>
+  <input class="cart-count" type="text" disabled="true" [(ngModel)]="currentCount">
+  <button class="btn btn-less" (click)="onRemove()" [disabled]="currentCount <= 0" [ngClass]="{'disabled': currentCount <= 0 }">-</button>
+</div>

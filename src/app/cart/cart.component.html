@@ -1,0 +1,47 @@
+<div class="cart-root">
+
+  <div class="header">
+    <button class="btn primary" (click)="onNavigateBack()" >Back</button>
+    <button class="btn success" style="float: right;" *ngIf="cartItemList.length !== 0" (click)="onPlaceOrder()">Place Order</button>
+  </div>
+
+  <div class="body">
+    <img *ngIf="cartItemList.length === 0" src="./../../assets/icons/empty-cart.png" alt="" style="width: 15rem;">
+    <ul>
+      <li *ngFor="let item of cartItemList; let indx = index">
+        <div class="avatar">
+          <img src="./../../assets/images/{{item.image[0]}}" alt="">
+        </div>
+        <div class="details">
+          <h3>{{item.title}}</h3>
+          <h5>{{item.packSize}} Pack</h5>
+          <h4 class="rate"
+            app-mrp-display
+            mP="{{item.marketPrice}}"
+            sP="{{item.sellingPrice}}"
+            unit="{{item.unitName}}"
+            vat="{{item.vat}}"
+            gst="{{item.gst}}">
+          </h4>
+        </div>
+        <div class="controls">
+          <app-add-cart
+          class="add-remove-ctrl"
+            (productAction)="productAction($event)"
+            productId="{{item.id}}"
+            currentCount="{{item.count}}">
+          </app-add-cart>
+
+          <button class="btn-delete" (click)="deleteCartItem(item.id, indx)">
+            <img src="./../../assets/icons/trash-outline.svg" alt="">
+          </button>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="footer">
+
+  </div>
+
+</div>

@@ -1,0 +1,152 @@
+<app-modal [(showModal)]="showModal" [productData]="modalProdData" ></app-modal>
+<h2 class="category">Two & Three Wheeler Lubes</h2>
+<div class="prod-container">
+  <div class="product" *ngFor="let product of listData | prodFilter: 1">
+    <app-add-cart
+    class="add-remove-ctrl"
+      (productAction)="productAction($event)"
+      productId="{{product.id}}"
+      currentCount="{{product.count}}">
+    </app-add-cart>
+
+    <div class="image">
+      <button class="viewBtn" (click)="onViewProduct(product)">
+        <img class="" src="./../../assets/icons/eye-outline.svg" alt="">
+      </button>
+      <img src="./../../assets/images/{{product.image[0]}}" alt="">
+    </div>
+
+    <div class="description">
+      <h3>{{product.title}}</h3>
+      <p>{{product.packSize}} pack</p>
+      <h6>{{product.desc}}</h6>
+      <h5 class="rate"
+        app-mrp-display
+        mP="{{product.marketPrice}}"
+        sP="{{product.sellingPrice}}"
+        unit="{{product.unitName}}"
+        vat="{{product.vat}}"
+        gst="{{product.gst}}">
+      </h5>
+    </div>
+  </div>
+</div>
+<br>
+
+<h2 class="category">Four Wheeler Lubes</h2>
+<div class="prod-container">
+  <div class="product" *ngFor="let product of listData | prodFilter: 2">
+    <app-add-cart
+    class="add-remove-ctrl"
+      (productAction)="productAction($event)"
+      productId="{{product.id}}"
+      currentCount="{{product.count}}">
+    </app-add-cart>
+
+    <div class="image">
+      <button class="viewBtn" (click)="onViewProduct(product)">
+        <img class="" src="./../../assets/icons/eye-outline.svg" alt="">
+      </button>
+      <img src="./../../assets/images/{{product.image[0]}}" alt="">
+    </div>
+
+    <div class="description">
+      <h3>{{product.title}}</h3>
+      <p>{{product.packSize}} pack</p>
+      <h6>{{product.desc}}</h6>
+      <h5 class="rate"
+        app-mrp-display
+        mP="{{product.marketPrice}}"
+        sP="{{product.sellingPrice}}"
+        unit="{{product.unitName}}"
+        vat="{{product.vat}}"
+        gst="{{product.gst}}">
+      </h5>
+    </div>
+  </div>
+</div>
+<br>
+
+<h2 class="category">Heavy Vehicle Lubes</h2>
+<div class="prod-container">
+  <div class="product" *ngFor="let product of listData | prodFilter: 3">
+    <app-add-cart
+    class="add-remove-ctrl"
+      (productAction)="productAction($event)"
+      productId="{{product.id}}"
+      currentCount="{{product.count}}">
+    </app-add-cart>
+
+    <div class="image">
+      <button class="viewBtn" (click)="onViewProduct(product)">
+        <img class="" src="./../../assets/icons/eye-outline.svg" alt="">
+      </button>
+      <img src="./../../assets/images/{{product.image[0]}}" alt="">
+    </div>
+
+    <div class="description">
+      <h3>{{product.title}}</h3>
+      <p>{{product.packSize}} pack</p>
+      <h6>{{product.desc}}</h6>
+      <h5 class="rate"
+        app-mrp-display
+        mP="{{product.marketPrice}}"
+        sP="{{product.sellingPrice}}"
+        unit="{{product.unitName}}"
+        vat="{{product.vat}}"
+        gst="{{product.gst}}">
+      </h5>
+    </div>
+  </div>
+</div>
+<br>
+
+<h2 class="category">General Lubricants</h2>
+<div class="prod-container">
+  <div class="product" *ngFor="let product of listData | prodFilter: 4">
+    <app-add-cart
+    class="add-remove-ctrl"
+      (productAction)="productAction($event)"
+      productId="{{product.id}}"
+      currentCount="{{product.count}}">
+    </app-add-cart>
+
+    <div class="image">
+      <button class="viewBtn" (click)="onViewProduct(product)">
+        <img class="" src="./../../assets/icons/eye-outline.svg" alt="">
+      </button>
+      <img src="./../../assets/images/{{product.image[0]}}" alt="">
+    </div>
+
+    <div class="description">
+      <h3>{{product.title}}</h3>
+      <p>{{product.packSize}} pack</p>
+      <h6>{{product.desc}}</h6>
+      <h5 class="rate"
+        app-mrp-display
+        mP="{{product.marketPrice}}"
+        sP="{{product.sellingPrice}}"
+        unit="{{product.unitName}}"
+        vat="{{product.vat}}"
+        gst="{{product.gst}}">
+      </h5>
+    </div>
+  </div>
+</div>
+<br>
+
+<h2 class="category">Looking for Bulk Order or Special Lubes ?</h2>
+<div class="query-container">
+
+  <div class="cursor">
+    <input class="query-text" [(ngModel)]="queryText" placeholder="Type your query here.." type="text">
+    <i></i>
+  </div>
+
+  <button class="query-btn" (click)="onSendQuery();">Send</button>
+</div>
+
+<!-- Category 1: Two & Three wheeler Lubes
+Category 2: Four wheeler Lubes
+Category 3: Heavy Vehicle Lubes
+Category 4: General Lubes -->
