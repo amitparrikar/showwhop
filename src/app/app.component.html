@@ -3,6 +3,9 @@
     <h1>Parrikar Petro Services</h1>
   </div>
   <div class="actions">
+    <a class="btn-home" href="https://www.parrikarpetro.com/index.html">
+      <img src="./../assets/icons/home-outline.svg" alt="">
+    </a>
     <button class="btn-cart" (click)="onViewCart()">
       <img src="./../assets/icons/cart-outline.svg" alt="">
       <i *ngIf="cartCount > 0">{{cartCount}}</i>
@@ -16,5 +19,16 @@
   <router-outlet></router-outlet>
 </main>
 <footer>
+  <div class="inner">
+    <h2>Get In Touch</h2>
+    <ul class="actions">
+      <li><span class="icon fa-phone"></span> <a href="#">(+91) 9049051067</a></li>
+      <li><span class="icon fa-envelope"></span> <a href="#">parrikarpetro@gmail.com</a></li>
+      <li><span class="icon fa-map-marker"></span>Mapusa Calangute Road, Parra, Bardez, Goa. 403510</li>
+    </ul>
 
+  </div>
+  <div class="copyright">
+    &copy; Parrikar Solutions Pvt. Ltd.
+  </div>
 </footer>

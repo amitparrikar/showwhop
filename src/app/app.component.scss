@@ -25,14 +25,31 @@
   }
 }
 
+.btn-home {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  margin-right: 15px;
+
+  img {
+    width: 30px;
+    height: 40px;
+  }
+
+}
+
 
 
 .header {
   height: 4rem;
   width: 100%;
   font-family: Roboto;
-  word-spacing: 4px;
-  letter-spacing: 2px;
+  word-spacing: 2px;
+  letter-spacing: 1.5px;
 
   background-color: #4a4aff;
   box-shadow: 0px 1px 10px 0px #828282;
@@ -46,7 +63,7 @@
       color: white;
       line-height: 60px;
       margin-left: 15px;
-      font-size: 1.5rem;
+      font-size: 1.25rem;
     }
   }
 
@@ -55,5 +72,22 @@
     text-align: right;
     padding-top: 10px;
     padding-right: 10px;
+  }
+}
+
+footer {
+  background-color: #ffe600;
+  text-align: center;
+  padding: 10px;
+
+  ul.actions {
+    li {
+      font-size: 10px;
+      color: black;
+
+      a {
+        text-decoration: none;
+      }
+    }
   }
 }

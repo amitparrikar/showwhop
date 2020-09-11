@@ -23,7 +23,7 @@
   {
     "id": 2,
     "category": 2,
-    "title": "MAK Alpha Zenith 5W30",
+    "title": "MAK Alpha Zenith 5W-30",
     "packSize": "1L",
     "image": [
       "MAK ALPHA ZENITH 5W-30.png",
@@ -86,7 +86,7 @@
   {
     "id": 5,
     "category": 2,
-    "title": "MAK Evolve Synth 0W20",
+    "title": "MAK Evolve Synth 0W-20",
     "packSize": "3.5L",
     "image": [
       "3.5 Litre Evolv Synth front.png",
@@ -100,6 +100,87 @@
     ],
       "marketPrice": 1600,
       "sellingPrice": 1550,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 6,
+    "category": 4,
+    "title": "MAK Spirol EP90",
+    "packSize": "1L",
+    "image": [
+      "MAK SPIROL 90 EP.png",
+      ""
+    ],
+    "desc": "Superior quality multigrade extreme pressure gear oil for new generation vehicles",
+    "spec": [
+      "Gear oil for cars/busses/trucks with advance technology to withstand extreme pressure",
+      "Superior lubrication at extreme temperature",
+      ""
+    ],
+      "marketPrice": 250,
+      "sellingPrice": 190,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 7,
+    "category": 3,
+    "title": "MAK Gold Plus 20W-40",
+    "packSize": "1L",
+    "image": [
+      "MAK GOLD PLUS.png",
+      ""
+    ],
+    "desc": "Premium heavy duty engine oil for light and heavy duty commercial vehicles",
+    "spec": [
+      "MAK 20W-40 CF4 Engine oil diesel engine oil for heavy vehicles",
+      "Advance OxiShield Technology for better engine performance"
+    ],
+      "marketPrice": 270,
+      "sellingPrice": 250,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 8,
+    "category": 4,
+    "title": "MAK Brake Fluid Super DOT3",
+    "packSize": "500ML",
+    "image": [
+      "MAK BRAKE FLUID SUPER DOT3.png",
+      ""
+    ],
+    "desc": "High performance hydraulic brake fulid for new vehicles",
+    "spec": [
+      "Brake fluid with DOT3 technology for all bikes/cars/trucks/buses",
+      "Performance guarented under extreme conditions"
+    ],
+      "marketPrice": 170,
+      "sellingPrice": 160,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 9,
+    "category": 3,
+    "title": "MAK Platinum Plus 15W-40",
+    "packSize": "1L",
+    "image": [
+      "MAK PLATINUM PLUS.png",
+      ""
+    ],
+    "desc": "Premium diesel engine oil for trucks, buses & LCVs",
+    "spec": [
+      "Advanced Oxishield technology with high performance under high pressure",
+      "Improves engine performance under extreme stress"
+    ],
+      "marketPrice": 340,
+      "sellingPrice": 290,
       "unitName": "Pack",
       "vat": 0,
       "gst": 18
