@@ -184,5 +184,276 @@
       "unitName": "Pack",
       "vat": 0,
       "gst": 18
+  },
+  {
+    "id": 10,
+    "category": 4,
+    "title": "MAK ATF-A Power Steering Fluid",
+    "packSize": "1L",
+    "image": [
+      "MAK ATF A.png",
+      ""
+    ],
+    "desc": "Premium automatic transmission and hydraulic power steering fluid",
+    "spec": [
+      "Excellent resistance to oxidtion and better low temperature characteristics ensure smooth and trouble free operation",
+      "Suitable for all weather conditions",
+      "Meets the benchmarks of Type A, DEXRON I and IB of General Motors, USA"
+    ],
+      "marketPrice": 257,
+      "sellingPrice": 250,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 11,
+    "category": 4,
+    "title": "MAK ATF-A Power Steering Fluid",
+    "packSize": "500ML",
+    "image": [
+      "MAK ATF A.png",
+      ""
+    ],
+    "desc": "Premium automatic transmission and hydraulic power steering fluid",
+    "spec": [
+      "Excellent resistance to oxidtion and better low temperature characteristics ensure smooth and trouble free operation",
+      "Suitable for all weather conditions",
+      "Meets the benchmarks of Type A, DEXRON I and IB of General Motors, USA"
+    ],
+      "marketPrice": 133,
+      "sellingPrice": 125,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 12,
+    "category": 1,
+    "title": "MAK Honda Power 10W-30",
+    "packSize": "800ML",
+    "image": [
+      "MAK HONDA POWER MB 800ML.png",
+      ""
+    ],
+    "desc": "4T 10W-30 JSO MB Extra premium 4-Stroke scooter engine oil",
+    "spec": [
+      "Specially designed for HONDA Gearless two wheel Four Stroke scooters",
+      "Advance filtered technology for resistance free enginer performance"
+    ],
+      "marketPrice": 278,
+      "sellingPrice": 270,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 13,
+    "category": 1,
+    "title": "MAK Honda Power 10W-30",
+    "packSize": "900ML",
+    "image": [
+      "MAK HONDA POWER MB 900ML.png",
+      ""
+    ],
+    "desc": "4T 10W-30 JSO MB Extra premium 4-Stroke geared scooter engine oil",
+    "spec": [
+      "Specially designed for HONDA Geared two Wheeler Four Stroke scooters",
+      "Advance filtered technology for resistance free enginer performance"
+    ],
+      "marketPrice": 310,
+      "sellingPrice": 300,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 14,
+    "category": 1,
+    "title": "MAK 4T NXT",
+    "packSize": "1L",
+    "image": [
+      "MAK NXT 1L.png",
+      ""
+    ],
+    "desc": "The next generation 4-Stroke engine oil with advanced synthetic technology, designed for high performance geared two wheeler bikes.",
+    "spec": [
+      "Field proven snthetic 3 in 1 technology for maximum mileage, power and pickup",
+      "Optimum frictoin control for smooth cluth and gear performance",
+      "Enhanced shear stability of this oil ensures noiseless engine and smoother ride"
+    ],
+      "marketPrice": 412,
+      "sellingPrice": 400,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 15,
+    "category": 1,
+    "title": "MAK 4T NXT",
+    "packSize": "900ML",
+    "image": [
+      "MAK NXT 1L.png",
+      ""
+    ],
+    "desc": "The next generation 4-Stroke engine oil with advanced synthetic technology, designed for high performance geared two wheeler bikes.",
+    "spec": [
+      "Field proven snthetic 3 in 1 technology for maximum mileage, power and pickup",
+      "Optimum frictoin control for smooth cluth and gear performance",
+      "Enhanced shear stability of this oil ensures noiseless engine and smoother ride"
+    ],
+      "marketPrice": 374,
+      "sellingPrice": 360,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 16,
+    "category": 4,
+    "title": "MAK REDI KOOL",
+    "packSize": "500ML",
+    "image": [
+      "MAK REDI KOOL.png",
+      ""
+    ],
+    "desc": "Type 2: Premium Ready to Use Coolant",
+    "spec": [
+      "Prevents coolant freeze-up and boil-over",
+      "Ensures effective cooling even with 700 ppm hard water as it does not form any deposits",
+      "Protects radiator and engine block from rust and corrosion"
+    ],
+      "marketPrice": 117,
+      "sellingPrice": 110,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 17,
+    "category": 4,
+    "title": "MAK REDI KOOL",
+    "packSize": "1L",
+    "image": [
+      "MAK REDI KOOL.png",
+      ""
+    ],
+    "desc": "Type 2: Premium Ready to Use Coolant",
+    "spec": [
+      "Prevents coolant freeze-up and boil-over",
+      "Ensures effective cooling even with 700 ppm hard water as it does not form any deposits",
+      "Protects radiator and engine block from rust and corrosion"
+    ],
+      "marketPrice": 234,
+      "sellingPrice": 220,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 18,
+    "category": 3,
+    "title": "MAK Diamond 15W-40",
+    "packSize": "1L",
+    "image": [
+      "MAK DIAMOND 15W40.png",
+      ""
+    ],
+    "desc": "Premium diesel engine oil for trucks, busses and LCVs",
+    "spec": [
+      "Excellent protection against wear and tear of critical engine parts even undder severe operating conditions, reduce maintenance costs",
+      "Enhanced oxidation stability reduces engine deposit and keeps engine parts clean",
+      "Ensures easy start and trouble free driving in all weather conditions",
+      "Superior dispersancy characteristics prevents oil thickening and increases oil service life"
+    ],
+      "marketPrice": 292,
+      "sellingPrice": 280,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 19,
+    "category": 2,
+    "title": "MAK Elite 15W-40",
+    "packSize": "1L",
+    "image": [
+      "MAK Elite 15W-40.png",
+      ""
+    ],
+    "desc": "Premium petrol engine oil for cars",
+    "spec": [
+      "Provides excellent lubrication and wear protection to engine under all operating conditions",
+      "Better control over sludge and deposit formation ensures superior engine cleanliness",
+      "Lowers maintenance and operating costs"
+    ],
+      "marketPrice": 309,
+      "sellingPrice": 290,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 20,
+    "category": 1,
+    "title": "MAK 4T Plus 20W-40",
+    "packSize": "1L",
+    "image": [
+      "MAK 4T Plus 20W40.png",
+      ""
+    ],
+    "desc": "Premium 4-Stroke 2&3 Wheeler engine oil",
+    "spec": [
+      "Designed for all types of 4-stroke geared vehicle engines",
+      "Provides excellent lubrication and wear protection to engine under all operating conditions",
+      "Better control over sludge and deposit formation ensures superior engine cleanliness",
+      "Lowers maintenance and operating costs"
+    ],
+      "marketPrice": 315,
+      "sellingPrice": 300,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 21,
+    "category": 4,
+    "title": "MAK Super Kool Conc",
+    "packSize": "500ML",
+    "image": [
+      "MAK Super KOOL_CONC.png",
+      ""
+    ],
+    "desc": "Environment friendly synthetic, long life, antifreeze coolant suitable for use in liquid-cooled IC engines",
+    "spec": [
+      "Environment friendly long life radiator coolant for all automotive vehicles",
+      "Mix 1-Part concentrate coolant in 2-Part normal water mix well and use"
+    ],
+      "marketPrice": 159,
+      "sellingPrice": 150,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
+  },
+  {
+    "id": 22,
+    "category": 4,
+    "title": "MAK Brake Fluid DOT3",
+    "packSize": "250ML",
+    "image": [
+      "MAK BRAKE FLUID DOT4.png",
+      ""
+    ],
+    "desc": "Heavy duty break fluid DOT 4",
+    "spec": [
+      "Works for all the latest vehicles with High precision breaking",
+      "Latest technology in terms of breaking mechanism"
+    ],
+      "marketPrice": 95,
+      "sellingPrice": 95,
+      "unitName": "Pack",
+      "vat": 0,
+      "gst": 18
   }
 ]
